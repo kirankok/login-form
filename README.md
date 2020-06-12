@@ -1,2 +1,2 @@
 Frescano Infotech Pvt Ltd
-Sing Up Form Assignment
+Sign Up Form Assignment
