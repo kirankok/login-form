@@ -56,9 +56,11 @@ export const LoginForm = () => {
   const handleSingup = (e) => {
     e.preventDefault();
 
+    let errorVal = Object.values(formVal.errors);
+
     let isDirty = formVal.firstName === '' || formVal.lastName === '' || formVal.email === '' || formVal.password === '';
     console.log(isDirty)
-    if (isDirty) {
+    if (isDirty || errorVal.includes(true)) {
       alert('Form is invalid')
     } else {
       alert('Form is valid')
