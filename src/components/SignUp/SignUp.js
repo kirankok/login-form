@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './LoginForm.css'
+import './SignUp.css'
 import { ValidateMessage } from '../Validation/Validation';
 import { messages } from '../../utils/error-message';
 

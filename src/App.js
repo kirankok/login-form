@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import { LoginForm } from './components/Login/LoginForm';
+import { LoginForm } from './components/SignUp/SignUp';
 
 function App() {
   return (
     <div className="container">
-      <header className="header">
-        <h1 className="title">Sign up Form</h1>
-        <p className="sub-title">Sign in using the below form</p>
+      <header className="app-header">
+        <h1 className="title">Sign Up Form</h1>
+        <h3 className="sub-title">Sign Up using the below form</h3>
       </header>
       <main className="main-container">
         <LoginForm />
